@@ -1,0 +1,36 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+build_search_index = false
+
+# Theme
+theme = "Zulma"
+
+zulma_brand = {text = "Home"}
+
+title = "Filip Andersson"
+
+taxonomies = [
+    {name = "categories"},
+    {name = "tags", paginate_by = 5, rss = false},
+    {name = "authors", rss = false},
+]
+
+# Put all your custom variables here
+[extra]
+zulma_theme = "lux"
+zulma_title = "Blog"
+zulma_allow_theme_selection = false
+zulma_brand = {text = "Home"}
+zulma_menu = [
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/authors", name = "Authors"}
+]

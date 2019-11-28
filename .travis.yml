@@ -16,6 +16,7 @@ script:
 after_success: |
   [ $TRAVIS_BRANCH = dev ] &&
   [ $TRAVIS_PULL_REQUEST = false ] &&
+  rm . &&
   zola build && 
   sudo pip install ghp-import &&
   ghp-import -n public -b master &&

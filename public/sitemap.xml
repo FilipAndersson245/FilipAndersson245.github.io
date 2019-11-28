@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>http://127.0.0.1:1111/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/authors/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/authors/filip-andersson/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/authors/joe-bloggs/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/categories/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/categories/hello-world/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/some-article/</loc>
+            
+                <lastmod>2017-09-20</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/some-other-article/</loc>
+            
+                <lastmod>2017-09-29</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/bar/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/bar/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/foo/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/foo/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/other/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/other/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/rust/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/rust/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/ssg/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/ssg/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/test/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/test/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/test-section/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/test-section/sub-section/</loc>
+            
+        </url>
+    
+</urlset>

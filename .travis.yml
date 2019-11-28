@@ -1,3 +1,5 @@
+dist: trusty
+
 language: minimal
 
 before_script:

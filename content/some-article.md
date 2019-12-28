@@ -1,10 +1,10 @@
 +++
-title = "What is Gutenberg"
-date = 2017-09-20
+title = "test blog post"
+date = 2019-12-28
 
 [taxonomies]
-categories = ["Hello world"]
-tags = ["Foo", "Bar"]
+categories = ["test"]
+tags = ["test"]
 authors = ["Filip Andersson"]
 +++
 

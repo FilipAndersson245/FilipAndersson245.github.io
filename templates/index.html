@@ -5,6 +5,14 @@
 <html>
 
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
     {% block head %}
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -38,8 +46,9 @@
 
 
     <style>
-        body {
-            padding-bottom: 35px;
+        .has-image-centered {
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 
@@ -66,11 +75,14 @@
     {{ index_macros::navbar() }}
     {% endblock header %}
     <!-- END NAV -->
-    <section class="hero">
+    <section class="hero" >
         <div class="hero-body">
-            <div class="container has-text-centered">
-                <img src="./images/portrait.png"/>
-            </div>
+            <!-- <div class="container" > -->
+                <figure class="image container ">
+                    <img class = "is-rounded has-image-centered" style="width:286px;height:286px;" src="./images/portrait.png"/>
+                </figure>
+                
+            <!-- </div> -->
         </div>
         <hr/>
     </section>
@@ -170,7 +182,62 @@
     {% endif %}
 
     {% endblock body%}
-    
+
+    <!-- <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer> -->
+
+    <footer class="footer ">
+        <div class="columns content is-centered ">
+            <div class="column is-1">
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="column is-4">
+            <div class="columns is-centered">
+                <div class="column is-2">
+                    <a href="https://www.linkedin.com/in/filip-andersson12" style="text-decoration:none; color:#007bb6;"><i class="fa fa-3x fa-linkedin-square"></i></a>
+                </div>
+                <div class="column is-2">
+                    <a href="https://github.com/FilipAndersson245" style="text-decoration:none; color: #24292E"><i class="fa fa-3x fa-github-square" aria-hidden="true"></i></a>
+                </div>
+                
+                
+            </div>
+                <p class="title">Contact me:</p>
+                <form action="https://formspree.io/xbjlrbrv" method="POST">
+                  <div class="field">
+                    <label class="label" for="email">Email</label>
+                    <div class="control">
+                      <input class="input" id="email" name="_replyto" type="email" placeholder="e.g jsmith@example.com">
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label" for="message">Message</label>
+                    <div class="control">
+                        <textarea class="textarea" id="message" name="message" placeholder="Your message"></textarea>
+                    </div>
+                  </div>
+
+                  <input type="text" name="_gotcha" style="display:none" />
+                  <input type="hidden" name="_subject" value="Contact form message"/>
+                  <input type="hidden" name="_next" value="//filipandersson245.github.io/" />
+                  <button class="button is-success is-rounded" type="submit" value="Send">Send</button>
+                </form>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

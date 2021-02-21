@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.logo {
+  fill: #1e76bd;
+}
+
+.linkedin {
+  color: #007bb6;
+  text-decoration: none;
+}
+
+.github {
+  text-decoration: none;
+  color: #24292e;
+}

@@ -1,1 +1,3 @@
-.vscode/*
+.eslintcache
+dist/
+node_modules/

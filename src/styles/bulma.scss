@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import "~bulma/sass/utilities/initial-variables";
+
+.image.is-256x256 {
+  height: 256px;
+  width: 256px;
+}
+
+$footer-background-color: hsl(0, 0%, 97%);
+$family-sans-serif: "Inter", sans-serif;
+
+@import "~bulma/bulma";

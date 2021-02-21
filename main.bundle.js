@@ -1,0 +1,3 @@
+(()=>{"use strict";"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/service-worker.js").then(e=>{console.log("SW registered: ",e)}).catch(e=>{console.log("SW registration failed: ",e)})}),document.addEventListener("DOMContentLoaded",()=>{const e=Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"),0);e.length>0&&e.forEach(t=>{t.addEventListener("click",()=>{const o=t.dataset.target,r=document.getElementById(o);t.classList.toggle("is-active"),r==null||r.classList.toggle("is-active")})})})})();
+
+//# sourceMappingURL=main.bundle.js.map

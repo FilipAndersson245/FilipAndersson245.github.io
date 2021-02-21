@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://filipandersson245.github.io/sitemap.xml
+Disallow:

@@ -1,0 +1,17 @@
+{
+  "main.css": "main.css",
+  "main.js": "main.bundle.js",
+  "main.js.map": "main.bundle.js.map",
+  "workbox-224ec2e5.js.map": "workbox-224ec2e5.js.map",
+  "assets/favicon.ico": "assets/favicon.ico",
+  "workbox-224ec2e5.js": "workbox-224ec2e5.js",
+  "src/assets/portrait.webp": "1f685e5a44425479cb45.webp",
+  "index.html": "index.html",
+  "spritemap.svg": "spritemap.svg",
+  "assets/favicon-48x48.png": "assets/favicon-48x48.png",
+  "service-worker.js.map": "service-worker.js.map",
+  "assets/favicon-32x32.png": "assets/favicon-32x32.png",
+  "service-worker.js": "service-worker.js",
+  "assets/favicon-16x16.png": "assets/favicon-16x16.png",
+  "src/robots.txt": "robots.txt"
+}

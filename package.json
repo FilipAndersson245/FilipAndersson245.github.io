@@ -39,5 +39,8 @@
     "start": "webpack serve --open --config webpack.dev.js",
     "lint": "eslint . --ext .ts --cache",
     "lint-fix": "eslint . --ext .ts --fix --cache"
+  },
+  "dependencies": {
+    "bulma-divider": "^0.2.0"
   }
 }
